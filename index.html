@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart City Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Mbabane SmartCity Hub</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mobility.html">Mobility & Transport</a></li>
+                <li><a href="public_safety.html">Public Safety</a></li>
+                <li><a href="health.html">Healthcare</a></li>
+                <li><a href="city_services.html">City Services</a></li>
+                <li><a href="community.html">Community & Events</a></li>
+                <li><a href="contact.html">Support & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <section class="top-bar">
+        <div class="breadcrumbs">
+            <p>Home</p>
+        </div>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search SmartCity...">
+        <div id="suggestions"></div>
+    </div>
+</section>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Welcome to SmartCity Hub</h1>
+        <p>Real-time urban insights</p>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <!-- WEATHER CARD -->
+        <div class="card weather">
+            <h2>Weather</h2>
+            <img src="images\weather.png" alt="Weather Image">
+            <p>Temperature: 26°C</p>
+            <p>Condition: Sunny</p>
+            <p>Humidity: 60%</p>
+        </div>
+
+        <!-- ALERTS CARD -->
+        <div class="card alerts">
+            <h2>Alerts & Events</h2>
+            <ul>
+                <li>⚠ Road closure: Main Street</li>
+                <li>🚧 Construction: City Mall Area</li>
+                <li>🎉 Festival: Cultural Expo - Saturday</li>
+                <li>🚨 Power maintenance: Zone 3</li>
+            </ul>
+        </div>
+
+        <!-- NEWS CARD -->
+        <div class="card news">
+            <h2>Latest News</h2>
+            <img src="images\accident1.jpeg" alt="News Image">
+            <p><strong>Traffic Incident:</strong> Minor accident reported on Highway A1. Expect delays.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 SmartCity Demo System</p>
+    </footer>
+<script src="script.js"></script>
+    
+
+</body>
+</html>
